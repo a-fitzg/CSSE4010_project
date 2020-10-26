@@ -3,6 +3,8 @@
 
 clear all; close all; clc;
 
+cd 'C:\Users\s4533087\CSSE4010\project';
+
 Na=13; % Number of antennas/sensors - has to be odd
 NN=50000; % number of time samples taken from the audio signals
 
