@@ -1,13 +1,18 @@
 % Demonstration of a wideband digital beamformer with (audio) signals
 % received by a uniform linear array of microphones/antennas
 
-clear all; close all; clc;
-
-cd 'C:\Users\s4533087\CSSE4010\project';
+%cd 'C:\Users\s4533087\CSSE4010\project';
 
 Na=35; % Number of antennas/sensors - has to be odd
 NN=50000; % number of time samples taken from the audio signals
 
+% Fixed-point word lengths for signal
+W = 16;
+D = 15;
+
+% Fixed-point word lengths for filter coefficients
+Wc = 16;
+Dc = 14;
 
 Ns=2; % number of sources
 DOA1=60*pi/180; % Directio of arrival of the wave fronts
@@ -67,23 +72,18 @@ h=fir2dpln(Mx,Mt,sin(DOA1),0.01); % Generating the 2D FIR filter coeff
 h=h'; % Transpose to make things consistent in terms of dimensions. 
         %Both in signal and filter, first dimension is time and the second is space.    
 
-        
-out=zeros(length(s11)-Mt+1,1); % Beamformed output
 
-% Applying the 2D convolution. Refer to class notes.
-for aa=1:length(out)-1
-    filtsum=0;
-    for pp=1:Mt
-        for qq=1:Mx
-            filtsum=filtsum+h(pp,qq)*sig(aa+Mt-(pp-1),Na-(qq-1));
-        end
-    end
-    out(aa)=filtsum;
-end
-
-% Listen to the beamformed output. As expected, both the noise and
-% interference are attenuated.
-sound(out,fs/2);
+% out=zeros(length(s11)-Mt+1,1);
+% for aa=1:length(out)-1
+%     filtsum=0;
+%     for pp=1:Mt
+%         for qq=1:Mx
+%             filtsum=filtsum+h(pp,qq)*sig(aa+Mt-(pp-1),Na-(qq-1));
+%         end
+%     end
+%     out(aa)=filtsum;
+% end
+% sound(out,fs/2);
 
 %%
 function [w] = ULA_planewave(x,DOA,Na)
@@ -136,9 +136,3 @@ h((M1+1)/2,(M2+1)/2) = B/pi;        % n1 = n2 = 0
 
 h = h / sum(h(:));                  % make magnitude at origin is unity
 end
-
-
-
-
-
-
