@@ -85,8 +85,6 @@ h=h'; % Transpose to make things consistent in terms of dimensions.
 % end
 % sound(out,fs/2);
 
-C = out.C.Data;
-sound(C, fs/2);
 
 %%
 function [w] = ULA_planewave(x,DOA,Na)
