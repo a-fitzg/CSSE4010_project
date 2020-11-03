@@ -85,7 +85,7 @@ h=h'; % Transpose to make things consistent in terms of dimensions.
 % end
 % sound(out,fs/2);
 
-C = out.C.Data;
+C = double(out.C.Data);
 sound(C, fs/2);
 
 %%
