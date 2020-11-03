@@ -68,7 +68,7 @@ sig=As*sig1+Ai*sig2+ns*noise;
 
 Mt=35; % Temporal order of the filter
 Mx=Mt; % Spatial order of the filter
-h=fir2dpln(Mx,Mt,sin(DOA1),0.01); % Generating the 2D FIR filter coeff
+h=fir2dpln(Mx,Mt,sin(DOA2),0.01); % Generating the 2D FIR filter coeff
 h=h'; % Transpose to make things consistent in terms of dimensions. 
         %Both in signal and filter, first dimension is time and the second is space.    
 
