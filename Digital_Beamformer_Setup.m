@@ -4,7 +4,7 @@
 %cd 'C:\Users\s4533087\CSSE4010\project';
 
 Na=35; % Number of antennas/sensors - has to be odd
-NN=50000; % number of time samples taken from the audio signals
+NN=70000; % number of time samples taken from the audio signals
 
 % Fixed-point word lengths for signal
 W = 16;
@@ -18,8 +18,8 @@ Ns=2; % number of sources
 DOA1=60*pi/180; % Directio of arrival of the wave fronts
 DOA2=-60*pi/180;
 
-[s1,fs]=audioread('./input/S2.aiff'); % Audio source 1 - female voice
-[s2,fs]=audioread('./input/S10.aiff'); % Audio source 2 - male voice
+[s1,fs]=audioread('./input/S5.aiff'); % Audio source 1 - female voice
+[s2,fs]=audioread('./input/S6.aiff'); % Audio source 2 - male voice
 
 sstart=2000; % Start time sample index of the audio inputs - to remove the initial silent period
 sstop=sstart+NN-1; % Stop time sample index of the audio input to have NN many samples
@@ -68,7 +68,7 @@ sig=As*sig1+Ai*sig2+ns*noise;
 
 Mt=35; % Temporal order of the filter
 Mx=Mt; % Spatial order of the filter
-h=fir2dpln(Mx,Mt,sin(DOA2),0.01); % Generating the 2D FIR filter coeff
+h=fir2dpln(Mx,Mt,sin(DOA1),0.01); % Generating the 2D FIR filter coeff
 h=flip(h', 2); % Transpose to make things consistent in terms of dimensions. 
         % Both in signal and filter, first dimension is time and the second is space.    
         % We also need to flip along the spatial axis
