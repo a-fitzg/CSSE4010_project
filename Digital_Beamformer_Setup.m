@@ -69,8 +69,9 @@ sig=As*sig1+Ai*sig2+ns*noise;
 Mt=35; % Temporal order of the filter
 Mx=Mt; % Spatial order of the filter
 h=fir2dpln(Mx,Mt,sin(DOA2),0.01); % Generating the 2D FIR filter coeff
-h=h'; % Transpose to make things consistent in terms of dimensions. 
-        %Both in signal and filter, first dimension is time and the second is space.    
+h=flip(h', 2); % Transpose to make things consistent in terms of dimensions. 
+        % Both in signal and filter, first dimension is time and the second is space.    
+        % We also need to flip along the spatial axis
 
 
 % out=zeros(length(s11)-Mt+1,1);
@@ -85,8 +86,6 @@ h=h'; % Transpose to make things consistent in terms of dimensions.
 % end
 % sound(out,fs/2);
 
-C = double(out.C.Data);
-sound(C, fs/2);
 
 %%
 function [w] = ULA_planewave(x,DOA,Na)
