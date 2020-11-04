@@ -3,7 +3,7 @@
 
 %cd 'C:\Users\s4533087\CSSE4010\project';
 
-Na=35; % Number of antennas/sensors - has to be odd
+Na=19; % Number of antennas/sensors - has to be odd
 NN=70000; % number of time samples taken from the audio signals
 
 % Fixed-point word lengths for signal
@@ -66,7 +66,7 @@ sig=As*sig1+Ai*sig2+ns*noise;
 % the signal (arriving at DOA1) and reject noise and interference (arriving
 % at DOA2).
 
-Mt=35; % Temporal order of the filter
+Mt=19; % Temporal order of the filter
 Mx=Mt; % Spatial order of the filter
 h=fir2dpln(Mx,Mt,sin(DOA1),0.01); % Generating the 2D FIR filter coeff
 h=flip(h', 2); % Transpose to make things consistent in terms of dimensions. 
