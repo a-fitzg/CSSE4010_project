@@ -8,11 +8,11 @@ NN=70000; % number of time samples taken from the audio signals
 
 % Fixed-point word lengths for signal
 W = 16;
-D = 15;
+D = 14;
 
 % Fixed-point word lengths for filter coefficients
 Wc = 16;
-Dc = 14;
+Dc = 16;
 
 Ns=2; % number of sources
 DOA1=60*pi/180; % Directio of arrival of the wave fronts
