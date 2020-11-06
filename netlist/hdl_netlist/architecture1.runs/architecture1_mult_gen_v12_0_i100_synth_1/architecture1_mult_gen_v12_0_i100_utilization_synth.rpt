@@ -1,8 +1,8 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-| Date         : Thu Nov  5 17:22:38 2020
-| Host         : ax401-3487 running 64-bit major release  (build 9200)
+| Date         : Fri Nov  6 18:00:25 2020
+| Host         : ax401-3497 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file architecture1_mult_gen_v12_0_i100_utilization_synth.rpt -pb architecture1_mult_gen_v12_0_i100_utilization_synth.pb
 | Design       : architecture1_mult_gen_v12_0_i100
 | Device       : 7v2000tflg1925-1

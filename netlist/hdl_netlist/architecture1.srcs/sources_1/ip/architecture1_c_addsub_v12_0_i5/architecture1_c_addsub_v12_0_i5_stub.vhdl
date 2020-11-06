@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Thu Nov  5 17:39:03 2020
--- Host        : ax401-3487 running 64-bit major release  (build 9200)
+-- Date        : Fri Nov  6 15:11:14 2020
+-- Host        : ax401-3497 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               c:/Users/s4533087/CSSE4010/project/netlist/hdl_netlist/architecture1.srcs/sources_1/ip/architecture1_c_addsub_v12_0_i5/architecture1_c_addsub_v12_0_i5_stub.vhdl
+--               c:/Users/s4533087/CSSE4010/CSSE4010_project/netlist/hdl_netlist/architecture1.srcs/sources_1/ip/architecture1_c_addsub_v12_0_i5/architecture1_c_addsub_v12_0_i5_stub.vhdl
 -- Design      : architecture1_c_addsub_v12_0_i5
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7v2000tflg1925-1

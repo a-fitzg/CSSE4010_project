@@ -1,8 +1,8 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
-// Date        : Thu Nov  5 20:09:30 2020
-// Host        : ax401-3487 running 64-bit major release  (build 9200)
+// Date        : Fri Nov  6 17:05:36 2020
+// Host        : ax401-3497 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub -rename_top decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix -prefix
 //               decalper_eb_ot_sdeen_pot_pi_dehcac_xnilix_ architecture1_mult_gen_v12_0_i40_stub.v
 // Design      : architecture1_mult_gen_v12_0_i40

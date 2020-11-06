@@ -2,11 +2,11 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu Nov  5 18:11:51 2020
-# Process ID: 20720
-# Current directory: C:/Users/s4533087/CSSE4010/project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1
+# Start of session at: Fri Nov  6 18:14:40 2020
+# Process ID: 2800
+# Current directory: C:/Users/s4533087/CSSE4010/CSSE4010_project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1
 # Command line: vivado.exe -log architecture1_mult_gen_v12_0_i120.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source architecture1_mult_gen_v12_0_i120.tcl
-# Log file: C:/Users/s4533087/CSSE4010/project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1/architecture1_mult_gen_v12_0_i120.vds
-# Journal file: C:/Users/s4533087/CSSE4010/project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1\vivado.jou
+# Log file: C:/Users/s4533087/CSSE4010/CSSE4010_project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1/architecture1_mult_gen_v12_0_i120.vds
+# Journal file: C:/Users/s4533087/CSSE4010/CSSE4010_project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1\vivado.jou
 #-----------------------------------------------------------
 source architecture1_mult_gen_v12_0_i120.tcl -notrace

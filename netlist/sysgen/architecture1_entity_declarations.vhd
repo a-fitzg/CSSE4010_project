@@ -40,15 +40,15 @@ use xil_defaultlib.conv_pkg.all;
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
-entity sysgen_cmult_d518ecf036 is
+entity sysgen_cmult_f44edd5fd7 is
   port (
     a : in std_logic_vector((16 - 1) downto 0);
     p : out std_logic_vector((16 - 1) downto 0);
     clk : in std_logic;
     ce : in std_logic;
     clr : in std_logic);
-end sysgen_cmult_d518ecf036;
-architecture behavior of sysgen_cmult_d518ecf036
+end sysgen_cmult_f44edd5fd7;
+architecture behavior of sysgen_cmult_f44edd5fd7
 is
   signal a_1_22: signed((16 - 1) downto 0);
   type array_type_op_mem_71_20 is array (0 to (1 - 1)) of signed((16 - 1) downto 0);
@@ -74,8 +74,8 @@ begin
     end if;
   end process proc_op_mem_71_20;
   mult_52_58 <= (a_1_22 * std_logic_vector_to_signed("00000000000000000"));
-  cast_product_52_5_convert <= s2s_cast(mult_52_58, 30, 32, 30);
-  cast_product_61_3_convert <= s2s_cast(cast_product_52_5_convert, 30, 16, 16);
+  cast_product_52_5_convert <= s2s_cast(mult_52_58, 28, 32, 28);
+  cast_product_61_3_convert <= s2s_cast(cast_product_52_5_convert, 28, 16, 16);
   op_mem_71_20_push_front_pop_back_en <= '0';
   p <= signed_to_std_logic_vector(cast_product_61_3_convert);
 end behavior;

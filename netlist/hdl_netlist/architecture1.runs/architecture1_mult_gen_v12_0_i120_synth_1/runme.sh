@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/s4533087/CSSE4010/project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1'
+HD_PWD='C:/Users/s4533087/CSSE4010/CSSE4010_project/netlist/hdl_netlist/architecture1.runs/architecture1_mult_gen_v12_0_i120_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

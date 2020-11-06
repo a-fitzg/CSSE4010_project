@@ -40,15 +40,15 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	set SimulationTime {250210.00000000 ns}
 	set SynthStrategyName {Vivado Synthesis Defaults}
 	set SynthesisTool {Vivado}
-	set TargetDir {C:/Users/s4533087/CSSE4010/project/netlist}
+	set TargetDir {C:/Users/s4533087/CSSE4010/CSSE4010_project/netlist}
 	set TopLevelModule {architecture1}
-	set TopLevelSimulinkHandle 0.000244141
+	set TopLevelSimulinkHandle 14347
 	set VHDLLib {xil_defaultlib}
 	set TopLevelPortInterface {}
 	dict set TopLevelPortInterface gateway_in69 Name {gateway_in69}
-	dict set TopLevelPortInterface gateway_in69 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in69 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in69 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in69 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in69 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in69 Width 16
 	dict set TopLevelPortInterface gateway_in69 DatFile {architecture1_gateway_in69.dat}
 	dict set TopLevelPortInterface gateway_in69 IconText {Gateway In69}
@@ -61,9 +61,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in69 Locs {}
 	dict set TopLevelPortInterface gateway_in69 IOStandard {}
 	dict set TopLevelPortInterface gateway_in68 Name {gateway_in68}
-	dict set TopLevelPortInterface gateway_in68 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in68 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in68 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in68 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in68 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in68 Width 16
 	dict set TopLevelPortInterface gateway_in68 DatFile {architecture1_gateway_in68.dat}
 	dict set TopLevelPortInterface gateway_in68 IconText {Gateway In68}
@@ -76,9 +76,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in68 Locs {}
 	dict set TopLevelPortInterface gateway_in68 IOStandard {}
 	dict set TopLevelPortInterface gateway_in67 Name {gateway_in67}
-	dict set TopLevelPortInterface gateway_in67 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in67 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in67 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in67 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in67 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in67 Width 16
 	dict set TopLevelPortInterface gateway_in67 DatFile {architecture1_gateway_in67.dat}
 	dict set TopLevelPortInterface gateway_in67 IconText {Gateway In67}
@@ -91,9 +91,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in67 Locs {}
 	dict set TopLevelPortInterface gateway_in67 IOStandard {}
 	dict set TopLevelPortInterface gateway_in66 Name {gateway_in66}
-	dict set TopLevelPortInterface gateway_in66 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in66 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in66 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in66 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in66 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in66 Width 16
 	dict set TopLevelPortInterface gateway_in66 DatFile {architecture1_gateway_in66.dat}
 	dict set TopLevelPortInterface gateway_in66 IconText {Gateway In66}
@@ -106,9 +106,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in66 Locs {}
 	dict set TopLevelPortInterface gateway_in66 IOStandard {}
 	dict set TopLevelPortInterface gateway_in65 Name {gateway_in65}
-	dict set TopLevelPortInterface gateway_in65 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in65 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in65 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in65 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in65 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in65 Width 16
 	dict set TopLevelPortInterface gateway_in65 DatFile {architecture1_gateway_in65.dat}
 	dict set TopLevelPortInterface gateway_in65 IconText {Gateway In65}
@@ -121,9 +121,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in65 Locs {}
 	dict set TopLevelPortInterface gateway_in65 IOStandard {}
 	dict set TopLevelPortInterface gateway_in64 Name {gateway_in64}
-	dict set TopLevelPortInterface gateway_in64 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in64 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in64 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in64 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in64 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in64 Width 16
 	dict set TopLevelPortInterface gateway_in64 DatFile {architecture1_gateway_in64.dat}
 	dict set TopLevelPortInterface gateway_in64 IconText {Gateway In64}
@@ -136,9 +136,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in64 Locs {}
 	dict set TopLevelPortInterface gateway_in64 IOStandard {}
 	dict set TopLevelPortInterface gateway_in57 Name {gateway_in57}
-	dict set TopLevelPortInterface gateway_in57 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in57 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in57 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in57 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in57 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in57 Width 16
 	dict set TopLevelPortInterface gateway_in57 DatFile {architecture1_gateway_in57.dat}
 	dict set TopLevelPortInterface gateway_in57 IconText {Gateway In57}
@@ -151,9 +151,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in57 Locs {}
 	dict set TopLevelPortInterface gateway_in57 IOStandard {}
 	dict set TopLevelPortInterface gateway_in47 Name {gateway_in47}
-	dict set TopLevelPortInterface gateway_in47 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in47 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in47 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in47 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in47 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in47 Width 16
 	dict set TopLevelPortInterface gateway_in47 DatFile {architecture1_gateway_in47.dat}
 	dict set TopLevelPortInterface gateway_in47 IconText {Gateway In47}
@@ -166,9 +166,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in47 Locs {}
 	dict set TopLevelPortInterface gateway_in47 IOStandard {}
 	dict set TopLevelPortInterface gateway_in45 Name {gateway_in45}
-	dict set TopLevelPortInterface gateway_in45 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in45 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in45 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in45 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in45 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in45 Width 16
 	dict set TopLevelPortInterface gateway_in45 DatFile {architecture1_gateway_in45.dat}
 	dict set TopLevelPortInterface gateway_in45 IconText {Gateway In45}
@@ -181,9 +181,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in45 Locs {}
 	dict set TopLevelPortInterface gateway_in45 IOStandard {}
 	dict set TopLevelPortInterface gateway_in44 Name {gateway_in44}
-	dict set TopLevelPortInterface gateway_in44 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in44 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in44 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in44 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in44 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in44 Width 16
 	dict set TopLevelPortInterface gateway_in44 DatFile {architecture1_gateway_in44.dat}
 	dict set TopLevelPortInterface gateway_in44 IconText {Gateway In44}
@@ -196,9 +196,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in44 Locs {}
 	dict set TopLevelPortInterface gateway_in44 IOStandard {}
 	dict set TopLevelPortInterface gateway_in43 Name {gateway_in43}
-	dict set TopLevelPortInterface gateway_in43 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in43 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in43 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in43 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in43 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in43 Width 16
 	dict set TopLevelPortInterface gateway_in43 DatFile {architecture1_gateway_in43.dat}
 	dict set TopLevelPortInterface gateway_in43 IconText {Gateway In43}
@@ -211,9 +211,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in43 Locs {}
 	dict set TopLevelPortInterface gateway_in43 IOStandard {}
 	dict set TopLevelPortInterface gateway_in42 Name {gateway_in42}
-	dict set TopLevelPortInterface gateway_in42 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in42 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in42 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in42 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in42 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in42 Width 16
 	dict set TopLevelPortInterface gateway_in42 DatFile {architecture1_gateway_in42.dat}
 	dict set TopLevelPortInterface gateway_in42 IconText {Gateway In42}
@@ -226,9 +226,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in42 Locs {}
 	dict set TopLevelPortInterface gateway_in42 IOStandard {}
 	dict set TopLevelPortInterface gateway_in41 Name {gateway_in41}
-	dict set TopLevelPortInterface gateway_in41 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in41 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in41 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in41 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in41 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in41 Width 16
 	dict set TopLevelPortInterface gateway_in41 DatFile {architecture1_gateway_in41.dat}
 	dict set TopLevelPortInterface gateway_in41 IconText {Gateway In41}
@@ -241,9 +241,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in41 Locs {}
 	dict set TopLevelPortInterface gateway_in41 IOStandard {}
 	dict set TopLevelPortInterface gateway_in40 Name {gateway_in40}
-	dict set TopLevelPortInterface gateway_in40 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in40 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in40 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in40 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in40 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in40 Width 16
 	dict set TopLevelPortInterface gateway_in40 DatFile {architecture1_gateway_in40.dat}
 	dict set TopLevelPortInterface gateway_in40 IconText {Gateway In40}
@@ -256,9 +256,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in40 Locs {}
 	dict set TopLevelPortInterface gateway_in40 IOStandard {}
 	dict set TopLevelPortInterface gateway_in39 Name {gateway_in39}
-	dict set TopLevelPortInterface gateway_in39 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in39 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in39 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in39 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in39 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in39 Width 16
 	dict set TopLevelPortInterface gateway_in39 DatFile {architecture1_gateway_in39.dat}
 	dict set TopLevelPortInterface gateway_in39 IconText {Gateway In39}
@@ -271,9 +271,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in39 Locs {}
 	dict set TopLevelPortInterface gateway_in39 IOStandard {}
 	dict set TopLevelPortInterface gateway_in38 Name {gateway_in38}
-	dict set TopLevelPortInterface gateway_in38 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in38 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in38 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in38 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in38 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in38 Width 16
 	dict set TopLevelPortInterface gateway_in38 DatFile {architecture1_gateway_in38.dat}
 	dict set TopLevelPortInterface gateway_in38 IconText {Gateway In38}
@@ -286,9 +286,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in38 Locs {}
 	dict set TopLevelPortInterface gateway_in38 IOStandard {}
 	dict set TopLevelPortInterface gateway_in37 Name {gateway_in37}
-	dict set TopLevelPortInterface gateway_in37 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in37 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in37 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in37 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in37 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in37 Width 16
 	dict set TopLevelPortInterface gateway_in37 DatFile {architecture1_gateway_in37.dat}
 	dict set TopLevelPortInterface gateway_in37 IconText {Gateway In37}
@@ -301,9 +301,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in37 Locs {}
 	dict set TopLevelPortInterface gateway_in37 IOStandard {}
 	dict set TopLevelPortInterface gateway_in36 Name {gateway_in36}
-	dict set TopLevelPortInterface gateway_in36 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in36 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in36 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in36 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in36 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in36 Width 16
 	dict set TopLevelPortInterface gateway_in36 DatFile {architecture1_gateway_in36.dat}
 	dict set TopLevelPortInterface gateway_in36 IconText {Gateway In36}
@@ -316,9 +316,9 @@ namespace eval ::xilinx::dsp::planaheaddriver {
 	dict set TopLevelPortInterface gateway_in36 Locs {}
 	dict set TopLevelPortInterface gateway_in36 IOStandard {}
 	dict set TopLevelPortInterface gateway_in27 Name {gateway_in27}
-	dict set TopLevelPortInterface gateway_in27 Type Fix_16_16
+	dict set TopLevelPortInterface gateway_in27 Type Fix_16_14
 	dict set TopLevelPortInterface gateway_in27 ArithmeticType xlSigned
-	dict set TopLevelPortInterface gateway_in27 BinaryPoint 16
+	dict set TopLevelPortInterface gateway_in27 BinaryPoint 14
 	dict set TopLevelPortInterface gateway_in27 Width 16
 	dict set TopLevelPortInterface gateway_in27 DatFile {architecture1_gateway_in27.dat}
 	dict set TopLevelPortInterface gateway_in27 IconText {Gateway In27}
